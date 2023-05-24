@@ -9,10 +9,11 @@ import './Home.css';
 const Home = () => {
 
     const tshirts = useLoaderData();
-    const [cart, setCart] = useState([])
+    const [cart, setCart] = useState([]);
 
     const handleAddToCart = tshirt => {
-        console.log(tshirt);
+        const newCart = [...cart, tshirt];
+        setCart(newCart);
     }
     return (
         <div className='home-container'>
@@ -28,7 +29,8 @@ const Home = () => {
             </div>
 
             <div className="cart-container">
-                <Cart></Cart>
+                <Cart  
+                cart = {cart}></Cart>
             </div>
         </div>
     );
