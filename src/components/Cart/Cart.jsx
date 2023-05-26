@@ -10,6 +10,8 @@ const Cart = ({cart}) => {
             }
         </div>
     );
+
+
 };
 
 export default Cart;
