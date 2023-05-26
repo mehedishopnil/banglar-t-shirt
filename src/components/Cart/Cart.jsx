@@ -12,6 +12,8 @@ const Cart = ({ cart }) => {
             <h3>new update is here</h3>
         </div>
     );
+
+
 };
 
 export default Cart;
