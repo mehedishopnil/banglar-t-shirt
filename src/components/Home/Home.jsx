@@ -22,7 +22,7 @@ const Home = () => {
                 tshirts.map(tshirt => <TShirt
                 key = {tshirt._id}
                 tshirt = {tshirt}
-                handleAddToCart = {handleAddToCart}
+                handleAddToCart={handleAddToCart}
                 
                 ></TShirt>)
             }
@@ -30,7 +30,9 @@ const Home = () => {
 
             <div className="cart-container">
                 <Cart  
-                cart = {cart}></Cart>
+                cart = {cart}>
+
+                </Cart>
             </div>
         </div>
     );
