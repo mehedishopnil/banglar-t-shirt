@@ -16,7 +16,7 @@ const Home = () => {
     const handleAddToCart = tshirt => {
         const exists = cart.find(ts => ts._id === tshirt._id);
         if (exists) {
-            toast('you have already clicked it')
+            toast('you have already added the product')
         }
         else {
             const newCart = [...cart, tshirt];
