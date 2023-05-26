@@ -11,6 +11,7 @@ const Cart = ({ cart }) => {
             }
             <h3>new update is here</h3>
             <h3>Subrato dekthe chai</h3>
+            <h1>Main brunch update</h1>
         </div>
     );
 };
