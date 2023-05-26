@@ -1,12 +1,13 @@
 import React from 'react';
 import './Cart.css';
 
-const Cart = ({cart}) => {
+const Cart = ({ cart }) => {
     return (
         <div className='cart'>
             <h2>Order Summary: {cart.length}</h2>
+            <h4>New Line</h4>
             {
-                cart.map(shirt => <p key={shirt._id}>{shirt.name}</p>)
+            cart.map(tshirt => console.log(tshirt) )
             }
         </div>
     );
