@@ -11,6 +11,8 @@ const Cart = ({ cart }) => {
             }
             <h3>new update is here</h3>
             <h3>Subrato dekthe chai</h3>
+            <h1>Main brunch updates</h1>
+            <h4>this is new update from second laptops</h4>
         </div>
     );
 
