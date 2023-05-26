@@ -6,3 +6,19 @@
 .cart p{
     
 }
+.gorib{
+    color: red;
+}
+.borolok{
+    color: rgb(1, 122, 1);
+}
+.fun-1{
+    background-color: rgba(192, 250, 192, 0.687);
+    padding: 10px;
+    border-radius: 15px;
+}
+.fun-2{
+    background-color: rgba(250, 192, 192, 0.687);
+    padding: 10px;
+    border-radius: 15px;
+}
