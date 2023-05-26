@@ -10,6 +10,7 @@ const Cart = ({ cart }) => {
             cart.map(tshirt => <p>{tshirt.name}</p> )
             }
             <h3>new update is here</h3>
+            <h3>Subrato dekthe chai</h3>
         </div>
     );
 };
