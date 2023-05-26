@@ -7,8 +7,7 @@ const Header = () => {
         <nav className='navbar'>
             <Link to ='/'>Home</Link>
             <Link to ='/orderReview'>Review</Link>
-            <Link to ='/about'>About</Link>
-            <Link to ='/contact'>Contact</Link>
+            <Link to ='/grandpa'>GrandPa</Link>
             <Link to ='/cart'>Cart</Link>
         </nav>
     );
