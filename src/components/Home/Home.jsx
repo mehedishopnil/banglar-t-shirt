@@ -22,7 +22,7 @@ const Home = () => {
                 tshirts.map(tshirt => <TShirt
                 key = {tshirt._id}
                 tshirt = {tshirt}
-                handleAddToCart={(tshirt) => handleAddToCart(tshirt)}
+                handleAddToCart={handleAddToCart}
                 
                 ></TShirt>)
             }

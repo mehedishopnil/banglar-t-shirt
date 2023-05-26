@@ -7,7 +7,7 @@ const Cart = ({ cart }) => {
             <h2>Order Summary: {cart.length}</h2>
             <h4>New Line</h4>
             {
-            cart.map(tshirt => console.log(tshirt) )
+            cart.map(tshirt => <p>{tshirt.name}</p> )
             }
         </div>
     );
